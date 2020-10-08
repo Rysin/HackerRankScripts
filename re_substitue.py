@@ -25,10 +25,8 @@ print set(list(a)) | set(list(b))
     and_string = re.sub(pattern_1, ' and ', code_string)
     or_string = re.sub(pattern_2, ' or ', and_string)
 
-    counter = 0
     while re.search(pattern_1, or_string) is not None or re.search(pattern_2, or_string) is not None:
         or_string = re.sub(pattern_1, ' and ', or_string)
         or_string = re.sub(pattern_2, ' or ', or_string)
-        counter += 1
 
     print(or_string)
