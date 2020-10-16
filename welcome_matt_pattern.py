@@ -14,8 +14,6 @@ symbol_1_counts += reversed(symbol_1_counts)
 symbol_1_counts.insert(len(symbol_1_counts)//2, 1)
 symbol_2_counts = list(map(lambda x: (columns-(3*x))//2, symbol_1_counts))
 
-patterns = []
-
 for row in range(len(symbol_1_counts)):
     counter_2_step = symbol_2_counts[row]
     counter_1_step = symbol_1_counts[row]
