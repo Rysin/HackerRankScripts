@@ -11,8 +11,10 @@ def angleTranslate(dest_ang):
 
     return dest_yaw
 
+
 def angleTranslate_180(angle):
     return angle + 180
+
 
 def angleTranslate360(angle):
     if angle < 0:
@@ -35,7 +37,7 @@ if __name__ == '__main__':
     plt.xlabel("In game angles")
     plt.ylabel("Converted Angles")
     plt.title("Angle Relationship")
-    # plt.suptitle(plt_style)
+    # plt.subtitle(plt_style)
     # plt.plot(angles, angles_translated, label="-90 Converted", marker='+')
     plt.legend()
     plt.grid()
