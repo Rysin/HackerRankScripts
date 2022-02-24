@@ -1,4 +1,3 @@
-
 # Find largest prime factor of given number
 '''
 Algorithm
@@ -11,6 +10,8 @@ import math
 
 check_num = 4352
 primes = [2]
+
+
 def get_prime_list(limit):
     global current_num, primes, factors
     for num in range(2, limit):
@@ -25,6 +26,8 @@ def get_prime_list(limit):
         if flag:
             primes.append(num)
     return primes
+
+
 def get_max_prime_factor(number):
     primes = get_prime_list(number)
     prime_factors = [f for f in primes if number % f == 0]
@@ -32,7 +35,8 @@ def get_max_prime_factor(number):
     print(max(prime_factors))
     return None
 
+
 if __name__ == '__main__':
-        listwa = get_prime_list(limit=100)
-        print(listwa)
-        get_max_prime_factor(2598)
+    listwa = get_prime_list(limit=100)
+    print(listwa)
+    get_max_prime_factor(2598)
