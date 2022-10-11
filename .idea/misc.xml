@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (Zoro)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (Shanks)" project-jdk-type="Python SDK" />
   <component name="StickyNotes">
     <option name="stickyNotes">
       <list>
         <SerializedStickyNote>
+          <option name="archived" value="true" />
           <option name="description" value="implement Counter logic to remove duplicates" />
         </SerializedStickyNote>
       </list>
