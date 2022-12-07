@@ -8,9 +8,10 @@ from PIL import Image
 # Create typer app
 sd = typer.Typer()
 
-COUNT :int  = 1
-today :str = str(date.today())
-image_formats = ['jpg', 'png', 'jpeg', 'tiff', 'bmp']
+COUNT: int = 1
+today: str = str(date.today())
+image_formats: list = ['jpg', 'png', 'jpeg', 'tiff', 'bmp']
+
 
 @sd.command()
 def hello(name):
@@ -21,6 +22,7 @@ def hello(name):
 @sd.command()
 def squareIt(num):
     typer.echo(f'Sqaure = {int(num) ** 2}')
+
 
 @sd.command()
 def fetchImage(date: datetime = today):
