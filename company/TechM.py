@@ -1,3 +1,16 @@
+"""
+Questions Asked:
+1. Introduce yourself.
+2. Deep Copy, Shallow Copy
+3. Map, Filter, Reduce
+4. List Or Generator
+3. GIL
+4. Oops : cls, static, instance method
+5. Django : Explain architecture.
+6. RestFul Api : How Rest API are different from normal API
+7. Numpy : How to make 3x3 array using One-D array
+8. Pandas : Difference between Join, Concatenate and Join
+"""
 # print(map(lambda x: x + 5, [1, 2, 3]))
 # print(reversed([1, 2, 3, 4]))
 # print([4, 7, 2, 9].sort())
@@ -45,6 +58,5 @@ if __name__ == '__main__':
 
     # Bubble Sort
     bubble = [7, 3, 5, 1, 65, 4, 1, 2, 0, 22, 17]
-    # s = bubble_sort(bubble)
     s = bubble_sort_recursion(bubble)
     print(s)

@@ -30,7 +30,7 @@ for letter in letters_in_sequence:
 
 print(counts)
 
-# Non Repeating Chars
+# Non-Repeating Chars
 non_repeat_chars = [char for char in counts if counts[char] < 2]
 print(non_repeat_chars)
 

@@ -36,18 +36,29 @@ def factorial(num):
 def floorIt(func):
     # Wrapper Function
     def wrapperFunction(*args, **kwargs):
-        print('Going to Call Wrapper Function')
         result = int(func(*args, **kwargs))
-        print('Completed Call to Wrapper Function')
         return result
+
     return wrapperFunction
 
 
+def format_float(limit=2):
+    # Write Decorator for limit
+    def decorator_limit(func):
+        # Write Wrapper Function
+        def wrapper_function(*args, **kwargs):
+            result = format(func(*args, **kwargs), f".{limit}f")
+            return result
+        return wrapper_function
+    return decorator_limit
+
+
 # MainFunction
+@format_float(3)
 @floorIt
 def multiplyIt(a, b):
     # a, b = list(map(float,(input("Please provide 2 args separated by SPACE").split())))
-    c = a/b
+    c = a / b
     print(c)
     return c
 

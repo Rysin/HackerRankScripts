@@ -31,8 +31,8 @@
 #
 #     new_string.append(_word)
 #
-# statement = ' '.join(new_string)
-# print(statement)
+# text = ' '.join(new_string)
+# print(text)
 
 nums = [1, 2, 3, 7, 7, 8, 9, 10, 2, 4, 3 , 7]
 nums.sort()
