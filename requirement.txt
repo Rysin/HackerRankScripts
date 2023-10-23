@@ -78,8 +78,6 @@ PySide2==5.15.2
 pytest==7.2.0
 python-dateutil==2.8.2
 python-dotenv==0.18.0
-pytz
-pywin32
 pywinpty
 pyzmq
 qt5-applications==5.15.2.2.2
