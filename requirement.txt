@@ -105,7 +105,6 @@ referencing
 requests
 rfc3339-validator
 rfc3986-validator
-rpds-py
 seaborn
 selenium
 Send2Trash
