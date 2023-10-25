@@ -6,5 +6,3 @@
 
 # print(False is None)
 # print(bool(None) is False)
-
- 

@@ -50,7 +50,7 @@ def bubble_sort_recursion(arr):
     return arr
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Sum of Nested Lists
     # numba = [2, 5, [2, 1, 23], [2, 3, 4, [7, 3], 78]]
     # f = sum_it_up(numba)

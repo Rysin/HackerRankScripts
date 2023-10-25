@@ -2,6 +2,7 @@
 # e.g. GivenString: MFJGIUTITICHGDH , DesiredString: "TI" Output: 2
 # e.g. GivenString: IUOLYOYHHLKHUYOYOYTYTYYTYT, DesiredString: "YOY" Output: 2
 
+
 def CountDesiredString(GivenString, DesiredString):
     Count = 0
 
@@ -13,11 +14,10 @@ def CountDesiredString(GivenString, DesiredString):
     #         i = i + substring_len + 1
     i = 0
     while i <= len(GivenString):
-        if GivenString[i:i + substring_len] == DesiredString:
+        if GivenString[i : i + substring_len] == DesiredString:
             Count += 1
             i = i + substring_len
         i += 1
-
 
     return Count
 

@@ -1,14 +1,14 @@
 list_1 = [95, 39, 5, 78, 11, 63, 95, 11, 3, 88, 105]
 
 
-for i in range(len(list_1)-1):
+for i in range(len(list_1) - 1):
     swap = False
-    for j in range(len(list_1)-1):
+    for j in range(len(list_1) - 1):
         swap = False
         print(list_1[j])
-        print(list_1[j+1])
-        if list_1[j] > list_1[j+1]:
-            list_1[j], list_1[j+1] = list_1[j+1], list_1[j]
+        print(list_1[j + 1])
+        if list_1[j] > list_1[j + 1]:
+            list_1[j], list_1[j + 1] = list_1[j + 1], list_1[j]
             swap = True
 
         print(j)
@@ -24,4 +24,3 @@ for i in list_1:
 
 print(list_2)
 print(list_2[-3])
-

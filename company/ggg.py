@@ -34,7 +34,7 @@
 # text = ' '.join(new_string)
 # print(text)
 
-nums = [1, 2, 3, 7, 7, 8, 9, 10, 2, 4, 3 , 7]
+nums = [1, 2, 3, 7, 7, 8, 9, 10, 2, 4, 3, 7]
 nums.sort()
 print(nums)
 uni_nums = []

@@ -19,7 +19,6 @@ def count_words(_string):
         else:
             counts[word] = 1
 
-
     # print(f"COUNTS : {counts}")
 
     # Sort The Counts
@@ -30,5 +29,6 @@ def count_words(_string):
 
     for k, v in counts.items()[:10]:
         print(f"{k} {v}")
+
 
 print(count_words(xx))

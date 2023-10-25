@@ -31,10 +31,5 @@ while list_copy:
     list_copy.remove(_min)
     list_copy.remove(_max)
 
-    print(f'list1 : {list_origin}')
-    print(f'list_copy : {list_copy}')
-
-
-
-
-
+    print(f"list1 : {list_origin}")
+    print(f"list_copy : {list_copy}")

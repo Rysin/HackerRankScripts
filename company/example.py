@@ -8,7 +8,7 @@ def isPrime(number):
     # for num in range(2, int(math.sqrt(number)+1)):
     for num in prime_list:
         rem = number % num
-        print(f'{number} % {num} = {rem}')
+        print(f"{number} % {num} = {rem}")
         if rem == 0:
             is_prime = False
             break
@@ -19,7 +19,7 @@ def isPrime(number):
     return is_prime
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     num_list = list(range(1, 101))
     primes = list(filter(isPrime, num_list))
     # primes_ = list(filter(lambda x: isPrime(x), num_list))

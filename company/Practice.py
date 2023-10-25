@@ -65,6 +65,7 @@ def find_n_fragments_sum_with_even(number, n):
 # find_n_fragments_sum_with_even(100, 5)
 # find_n_fragments_sum_with_even(87, 5)
 
+
 def find_n_fragments_sum_with_odd(number, n, base):
     frags = [base for _ in range(n - 1)]
     frags.insert(0, number - sum(frags))
@@ -281,7 +282,7 @@ Output:
 
 
 def create_stone_pile(n):
-    stone_pile = list(range(n, (n+2*n), 2))
+    stone_pile = list(range(n, (n + 2 * n), 2))
     return stone_pile
 
 
@@ -303,15 +304,17 @@ Output:
 ['()', '((()()()))', '(())']
 """
 
+
 def strip_white_space_and_group(string):
     ls = []
     s2 = ""
-    for s in string.replace(' ', ''):
+    for s in string.replace(" ", ""):
         s2 += s
         if s2.count("(") == s2.count(")"):
             ls.append(s2)
             s2 = ""
     return ls
+
 
 # inputs = ["( ()) ((()()())) (()) ()", "() (( ( )() ( )) ) ( ())" ]
 # for _input in inputs:
@@ -326,6 +329,7 @@ Input:
 Output:
 [False, True, True, False, False]
 """
+
 
 def check_palindrom(string_list):
     return [bool(list(string) == list(string)[::-1]) for string in string_list]

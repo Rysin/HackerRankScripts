@@ -28,9 +28,9 @@
 intList = list(range(10, 20))
 print(intList)
 
-newList = [i ** 2 for i in intList]
+newList = [i**2 for i in intList]
 print(newList)
 
-intList2 = list(map(lambda x: x ** 2 if not x%2 else ..., intList))
+intList2 = list(map(lambda x: x**2 if not x % 2 else ..., intList))
 # intList3 = list(filter(lambda x:x%2==1, intList))
 print(intList2)

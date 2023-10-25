@@ -39,15 +39,16 @@
 # tr = pascals_triangle(10)
 # print(*tr, sep="\n")
 
+
 def add_all_once(args):
     # return [args[i] + args[i+1] for i in range(len(args)-1) if args[i] == 1]
     print(args)
-    _range = len(args)-1
+    _range = len(args) - 1
 
     for i in range(_range):
         if args[i] == 1:
-            args[i] += args[i+1]
-            args.remove(args[i+1])
+            args[i] += args[i + 1]
+            args.remove(args[i + 1])
         _range = len(args) - 1
 
     return args

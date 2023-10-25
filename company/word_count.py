@@ -7,7 +7,7 @@ maintained by the surface tension gradient (Marangoni flow) can drag water-solub
 at the liquid–air interface. Dye particles placed at the entrance of the maze dissolve during this motion, 
 thus exhibiting and finding the shortest path and all possible paths in a maze. """
 
-words = para.split(' ')
+words = para.split(" ")
 unique_words = list(set(words))
 words_sorted = sorted(words)
 
@@ -25,4 +25,4 @@ for word in unique_words:
     except IndexError:
         pass
 
-print(word_count, sep='\n')
+print(word_count, sep="\n")

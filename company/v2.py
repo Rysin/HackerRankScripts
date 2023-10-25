@@ -47,6 +47,4 @@ if non_repeat_chars:
     letter = min(index)
     print(index[letter])
 else:
-    print('-1')
-
-
+    print("-1")
